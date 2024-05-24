@@ -1,8 +1,8 @@
-这是BIO206 科学论文的原始数据
-以下是内容介绍：
-bam：mapping结果
-ddump_fasta：去重复后的fasta文件
-original_fasta: 原始fasta文件来自GtRNAdb
-ser-fasta：去重复并只保留了丝氨酸的fasta文件
-ser-fasta-ref:用于mapping的参考序列的丝氨酸fasta文件，去重并去掉了使用同一个密码子的重复的序列
-tree&orthofinder:IQ-TREE和OrthoFinder的结果
+This is the raw data from the BIO206 scientific paper.
+Here's what you can do:
+bam: mapping result;
+ddump_fasta: FASTA file after deduplication;
+original_fasta: The original fasta file is from GtRNAdb;
+ser-fasta: deduplicates and retains only serine-only fasta files;
+ser-fasta-ref: serine fasta file for reference sequences used for mapping, deduplicated and removes duplicate sequences that use the same codon;
+tree &orthofinder: Results of IQ-TREE and OrthoFinder.
