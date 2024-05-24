@@ -1,0 +1,8 @@
+这是BIO206 科学论文的原始数据
+以下是内容介绍：
+bam：mapping结果
+ddump_fasta：去重复后的fasta文件
+original_fasta: 原始fasta文件来自GtRNAdb
+ser-fasta：去重复并只保留了丝氨酸的fasta文件
+ser-fasta-ref:用于mapping的参考序列的丝氨酸fasta文件，去重并去掉了使用同一个密码子的重复的序列
+tree&orthofinder:IQ-TREE和OrthoFinder的结果
