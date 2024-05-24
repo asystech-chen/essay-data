@@ -1,5 +1,5 @@
 This is the raw data from the BIO206 scientific paper.
-Here's what you can do:
+Here's an introduction to the contents of the folders:
 bam: mapping result;
 ddump_fasta: FASTA file after deduplication;
 original_fasta: The original fasta file is from GtRNAdb;
