@@ -1,0 +1,5 @@
+Homo_sapiens_tRNA-Ser-AGA-1-1	82	13	0
+Homo_sapiens_tRNA-Ser-CGA-1-1	82	6	0
+Homo_sapiens_tRNA-Ser-GCT-1-1	82	42	0
+Homo_sapiens_tRNA-Ser-TGA-1-1	82	9	0
+*	0	0	349

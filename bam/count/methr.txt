@@ -1,0 +1,5 @@
+Methanosarcina_thermophila_TM-1_tRNA-Ser-CGA-1-1	84	1	0
+Methanosarcina_thermophila_TM-1_tRNA-Ser-GCT-1-1	85	2	0
+Methanosarcina_thermophila_TM-1_tRNA-Ser-GGA-1-1	83	1	0
+Methanosarcina_thermophila_TM-1_tRNA-Ser-TGA-1-1	85	2	0
+*	0	0	52

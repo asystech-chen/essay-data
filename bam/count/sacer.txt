@@ -1,0 +1,5 @@
+Saccharomyces_cerevisiae_tRNA-Ser-AGA-1-1	60	18	0
+Saccharomyces_cerevisiae_tRNA-Ser-CGA-1-1	101	1	0
+Saccharomyces_cerevisiae_tRNA-Ser-GCT-1-1	101	4	0
+Saccharomyces_cerevisiae_tRNA-Ser-TGA-1-1	82	29	0
+*	0	0	223

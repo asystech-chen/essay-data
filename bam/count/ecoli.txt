@@ -1,0 +1,5 @@
+Escherichia_coli_str_K-12_substr_MG1655_tRNA-Ser-CGA-1-1	90	1	0
+Escherichia_coli_str_K-12_substr_MG1655_tRNA-Ser-GCT-1-1	93	1	0
+Escherichia_coli_str_K-12_substr_MG1655_tRNA-Ser-GGA-1-1	88	5	0
+Escherichia_coli_str_K-12_substr_MG1655_tRNA-Ser-TGA-1-1	88	7	0
+*	0	0	75

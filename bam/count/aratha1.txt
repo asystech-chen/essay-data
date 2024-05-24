@@ -1,0 +1,6 @@
+Arabidopsis_thaliana_tRNA-Ser-AGA-1-1	82	35	0
+Arabidopsis_thaliana_tRNA-Ser-CGA-1-1	82	3	0
+Arabidopsis_thaliana_tRNA-Ser-GCT-1-1	82	11	0
+Arabidopsis_thaliana_tRNA-Ser-GGA-2-1	87	10	0
+Arabidopsis_thaliana_tRNA-Ser-TGA-1-1	82	13	0
+*	0	0	512

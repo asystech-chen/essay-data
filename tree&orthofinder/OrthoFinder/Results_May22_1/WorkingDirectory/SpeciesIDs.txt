@@ -1,0 +1,5 @@
+0: aratha1-ser.fa
+1: ecoli-ser.fa
+2: hg19-ser.fa
+3: methr-ser.fa
+4: sacer-ser.fa

@@ -1,0 +1,6 @@
+	aratha1-ser	ecoli-ser	hg19-ser	methr-ser	sacer-ser
+aratha1-ser	1	0	0	0	0
+ecoli-ser	0	1	1	0	0
+hg19-ser	0	1	3	0	1
+methr-ser	0	0	0	1	0
+sacer-ser	0	0	1	0	2

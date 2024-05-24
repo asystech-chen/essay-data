@@ -1,0 +1,24 @@
+# cline: mcl /home/chen/fq/xjtlu/206/muti/ortho/OrthoFinder/Results_May22/WorkingDirectory/OrthoFinder_graph.txt "-I" "1.5" "-o" "/home/chen/fq/xjtlu/206/muti/ortho/OrthoFinder/Results_May22/WorkingDirectory/clusters_OrthoFinder_I1.5.txt" "-te" "10" "-V" "all"
+(mclheader
+mcltype matrix
+dimensions 40x16
+)
+(mclmatrix
+begin
+0      1_1 1_2 2_0 2_1 2_2 2_7 2_15 2_16 2_17 $
+1      0_0 0_1 0_2 0_3 0_4 0_5 0_6 0_8 $
+2      2_8 2_9 2_10 2_11 2_12 $
+3      2_4 2_5 2_14 4_2 $
+4      3_2 3_3 $
+5      4_0 4_1 $
+6      0_7 $
+7      1_0 $
+8      1_3 $
+9      2_3 $
+10      2_6 $
+11      2_13 $
+12      3_0 $
+13      3_1 $
+14      4_3 $
+15      4_4 $
+)

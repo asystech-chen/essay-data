@@ -1,0 +1,13 @@
+2024-05-22 14:27:50 : Started OrthoFinder version 2.5.5
+Command Line: /home/chen/anaconda3/envs/bulk/bin/orthofinder -f ../ortho -d -a 10 -M msa -S diamond
+
+WorkingDirectory_Base: /home/chen/fq/xjtlu/206/muti/ortho/OrthoFinder/Results_May22/WorkingDirectory/
+
+Species used: 
+0: aratha1-ser.fa
+1: ecoli-ser.fa
+2: hg19-ser.fa
+3: methr-ser.fa
+4: sacer-ser.fa
+
+FN_Orthogroups: /home/chen/fq/xjtlu/206/muti/ortho/OrthoFinder/Results_May22/WorkingDirectory/clusters_OrthoFinder_I1.5.txt_id_pairs.txt

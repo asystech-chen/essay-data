@@ -1,0 +1,16 @@
+OG0000000: Escherichia_coli_str_K-12_substr_MG1655_tRNA-Ser-GCT-1-1 Escherichia_coli_str_K-12_substr_MG1655_tRNA-Ser-GGA-1-1 Homo_sapiens_tRNA-Ser-AGA-1-1 Homo_sapiens_tRNA-Ser-AGA-2-1 Homo_sapiens_tRNA-Ser-AGA-3-1 Homo_sapiens_tRNA-Ser-CGA-4-1 Homo_sapiens_tRNA-Ser-TGA-2-1 Homo_sapiens_tRNA-Ser-TGA-3-1 Homo_sapiens_tRNA-Ser-TGA-4-1
+OG0000001: Arabidopsis_thaliana_tRNA-Ser-AGA-1-1 Arabidopsis_thaliana_tRNA-Ser-AGA-10-1 Arabidopsis_thaliana_tRNA-Ser-AGA-2-1 Arabidopsis_thaliana_tRNA-Ser-AGA-3-1 Arabidopsis_thaliana_tRNA-Ser-AGA-4-1 Arabidopsis_thaliana_tRNA-Ser-AGA-5-1 Arabidopsis_thaliana_tRNA-Ser-AGA-6-1 Arabidopsis_thaliana_tRNA-Ser-AGA-8-1
+OG0000002: Homo_sapiens_tRNA-Ser-GCT-1-1 Homo_sapiens_tRNA-Ser-GCT-2-1 Homo_sapiens_tRNA-Ser-GCT-3-1 Homo_sapiens_tRNA-Ser-GCT-4-1 Homo_sapiens_tRNA-Ser-GCT-5-1
+OG0000003: Homo_sapiens_tRNA-Ser-CGA-1-1 Homo_sapiens_tRNA-Ser-CGA-2-1 Homo_sapiens_tRNA-Ser-TGA-1-1 Saccharomyces_cerevisiae_tRNA-Ser-CGA-1-1
+OG0000004: Methanosarcina_thermophila_TM-1_tRNA-Ser-GGA-1-1 Methanosarcina_thermophila_TM-1_tRNA-Ser-TGA-1-1
+OG0000005: Saccharomyces_cerevisiae_tRNA-Ser-AGA-1-1 Saccharomyces_cerevisiae_tRNA-Ser-AGA-2-1
+OG0000006: Arabidopsis_thaliana_tRNA-Ser-AGA-7-1
+OG0000007: Escherichia_coli_str_K-12_substr_MG1655_tRNA-Ser-CGA-1-1
+OG0000008: Escherichia_coli_str_K-12_substr_MG1655_tRNA-Ser-TGA-1-1
+OG0000009: Homo_sapiens_tRNA-Ser-AGA-4-1
+OG0000010: Homo_sapiens_tRNA-Ser-CGA-3-1
+OG0000011: Homo_sapiens_tRNA-Ser-GCT-6-1
+OG0000012: Methanosarcina_thermophila_TM-1_tRNA-Ser-CGA-1-1
+OG0000013: Methanosarcina_thermophila_TM-1_tRNA-Ser-GCT-1-1
+OG0000014: Saccharomyces_cerevisiae_tRNA-Ser-GCT-1-1
+OG0000015: Saccharomyces_cerevisiae_tRNA-Ser-TGA-1-1

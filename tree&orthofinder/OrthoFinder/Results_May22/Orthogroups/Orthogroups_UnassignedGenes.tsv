@@ -1,0 +1,11 @@
+Orthogroup	aratha1-ser	ecoli-ser	hg19-ser	methr-ser	sacer-ser
+OG0000006	Arabidopsis_thaliana_tRNA-Ser-AGA-7-1				
+OG0000007		Escherichia_coli_str_K-12_substr_MG1655_tRNA-Ser-CGA-1-1			
+OG0000008		Escherichia_coli_str_K-12_substr_MG1655_tRNA-Ser-TGA-1-1			
+OG0000009			Homo_sapiens_tRNA-Ser-AGA-4-1		
+OG0000010			Homo_sapiens_tRNA-Ser-CGA-3-1		
+OG0000011			Homo_sapiens_tRNA-Ser-GCT-6-1		
+OG0000012				Methanosarcina_thermophila_TM-1_tRNA-Ser-CGA-1-1	
+OG0000013				Methanosarcina_thermophila_TM-1_tRNA-Ser-GCT-1-1	
+OG0000014					Saccharomyces_cerevisiae_tRNA-Ser-GCT-1-1
+OG0000015					Saccharomyces_cerevisiae_tRNA-Ser-TGA-1-1

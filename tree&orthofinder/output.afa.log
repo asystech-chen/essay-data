@@ -1,0 +1,885 @@
+IQ-TREE multicore version 2.3.3 COVID-edition for Linux x86 64-bit built Apr 25 2024
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    chen-virtual-machine (AVX2, FMA3, 17 GB RAM)
+Command: iqtree -s output.afa -m MFP -bb 1000 -bnni -redo -nt AUTO -cmax 15
+Seed:    136845 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed May 22 11:40:04 2024
+Kernel:  AVX+FMA - auto-detect threads (8 CPU cores detected)
+
+Reading alignment file output.afa ... Fasta format detected
+Reading fasta file: done in 0.00499067 secs using 99.97% CPU
+Alignment most likely contains DNA/RNA sequences
+Alignment has 624 sequences with 292 columns, 256 distinct patterns
+202 parsimony-informative, 45 singleton sites, 45 constant sites
+                                                           Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 5.4575e-05 secs using 1.183e+04% CPU
+   1  Saccharomyces_cerevisiae_tRNA-Tyr-GTA-1-1                   69.52%    passed     79.25%
+   2  Saccharomyces_cerevisiae_tRNA-Tyr-GTA-1-2                   69.52%    passed     80.07%
+   3  Saccharomyces_cerevisiae_tRNA-Asn-GTT-1-1                   74.66%    passed     98.47%
+   4  Escherichia_coli_str_K-12_substr_MG1655_tRNA-SeC-TCA-1-1    67.47%    passed     40.11%
+   5  Escherichia_coli_str_K-12_substr_MG1655_tRNA-Cys-GCA-1-1    74.66%    passed     88.09%
+   6  Methanosarcina_thermophila_TM-1_tRNA-Trp-CCA-1-1            34.59%    passed     49.52%
+   7  Methanosarcina_thermophila_TM-1_tRNA-Pro-TGG-1-1            74.32%    passed     94.41%
+   8  Methanosarcina_thermophila_TM-1_tRNA-Pro-CGG-1-1            74.32%    passed     55.47%
+   9  Methanosarcina_thermophila_TM-1_tRNA-Pro-GGG-1-1            73.29%    passed     43.27%
+  10  Saccharomyces_cerevisiae_tRNA-Gln-CTG-1-1                   75.34%    passed     70.44%
+  11  Saccharomyces_cerevisiae_tRNA-Gln-TTG-2-1                   75.34%    passed     59.68%
+  12  Saccharomyces_cerevisiae_tRNA-Gln-TTG-1-1                   75.34%    passed     24.02%
+  13  Saccharomyces_cerevisiae_tRNA-Gln-TTG-3-1                   75.34%    passed     27.66%
+  14  Arabidopsis_thaliana_tRNA-Gln-TTG-1-1                       75.34%    passed     70.32%
+  15  Arabidopsis_thaliana_tRNA-Gln-TTG-2-1                       75.34%    passed     75.17%
+  16  Homo_sapiens_tRNA-Gln-CTG-6-1                               75.34%    passed     85.88%
+  17  Homo_sapiens_tRNA-Gln-TTG-1-1                               75.34%    passed     84.26%
+  18  Homo_sapiens_tRNA-Gln-TTG-3-1                               75.34%    passed     92.53%
+  19  Homo_sapiens_tRNA-Gln-TTG-4-1                               75.34%    passed     74.05%
+  20  Homo_sapiens_tRNA-Gln-TTG-2-1                               75.34%    passed     84.26%
+  21  Homo_sapiens_tRNA-Gln-CTG-5-1                               75.34%    passed     61.43%
+  22  Homo_sapiens_tRNA-Gln-CTG-7-1                               75.34%    passed     68.69%
+  23  Homo_sapiens_tRNA-Gln-CTG-3-1                               75.34%    passed     95.76%
+  24  Homo_sapiens_tRNA-Gln-CTG-4-1                               75.34%    passed     94.35%
+  25  Homo_sapiens_tRNA-Gln-CTG-1-1                               75.34%    passed     74.87%
+  26  Homo_sapiens_tRNA-Gln-CTG-2-1                               75.34%    passed     84.26%
+  27  Arabidopsis_thaliana_tRNA-Gln-CTG-3-1                       75.34%    passed     75.04%
+  28  Arabidopsis_thaliana_tRNA-Gln-CTG-5-1                       75.34%    passed     48.99%
+  29  Arabidopsis_thaliana_tRNA-Gln-CTG-1-1                       75.34%    passed     75.04%
+  30  Arabidopsis_thaliana_tRNA-Gln-CTG-2-1                       75.34%    passed     98.61%
+  31  Arabidopsis_thaliana_tRNA-Gln-CTG-4-1                       75.34%    passed     87.70%
+  32  Methanosarcina_thermophila_TM-1_tRNA-Gly-GCC-1-1            75.34%    passed     95.15%
+  33  Homo_sapiens_tRNA-Val-TAC-3-1                               75.00%    passed     77.50%
+  34  Homo_sapiens_tRNA-Val-TAC-1-1                               75.00%    passed     96.13%
+  35  Homo_sapiens_tRNA-Val-TAC-2-1                               75.00%    passed     98.31%
+  36  Saccharomyces_cerevisiae_tRNA-Val-AAC-1-1                   74.66%    passed     86.92%
+  37  Saccharomyces_cerevisiae_tRNA-Val-AAC-2-1                   74.66%    passed     90.55%
+  38  Arabidopsis_thaliana_tRNA-Val-TAC-2-1                       75.00%    passed     51.71%
+  39  Arabidopsis_thaliana_tRNA-Val-TAC-1-1                       75.00%    passed     90.28%
+  40  Arabidopsis_thaliana_tRNA-Val-TAC-3-1                       75.00%    passed     95.47%
+  41  Homo_sapiens_tRNA-Val-TAC-4-1                               75.00%    passed     92.10%
+  42  Homo_sapiens_tRNA-Val-CAC-2-1                               75.00%    passed     92.68%
+  43  Homo_sapiens_tRNA-Val-AAC-3-1                               75.00%    passed     45.77%
+  44  Homo_sapiens_tRNA-Val-CAC-3-1                               75.00%    passed     77.73%
+  45  Homo_sapiens_tRNA-Val-CAC-6-1                               75.00%    passed     89.81%
+  46  Homo_sapiens_tRNA-Val-AAC-5-1                               75.00%    passed     78.72%
+  47  Homo_sapiens_tRNA-Val-CAC-4-1                               75.00%    passed     96.87%
+  48  Homo_sapiens_tRNA-Val-AAC-2-1                               75.00%    passed     82.08%
+  49  Homo_sapiens_tRNA-Val-AAC-4-1                               75.00%    passed     92.17%
+  50  Homo_sapiens_tRNA-Val-CAC-1-1                               75.00%    passed     92.68%
+  51  Homo_sapiens_tRNA-Val-CAC-5-1                               74.66%    passed     95.00%
+  52  Homo_sapiens_tRNA-Val-AAC-1-1                               75.00%    passed     89.81%
+  53  Arabidopsis_thaliana_tRNA-Val-AAC-1-1                       74.66%    passed     98.06%
+  54  Arabidopsis_thaliana_tRNA-Val-AAC-2-1                       74.66%    passed     94.34%
+  55  Arabidopsis_thaliana_tRNA-Val-CAC-1-1                       74.66%    passed     94.10%
+  56  Arabidopsis_thaliana_tRNA-Val-CAC-2-1                       74.66%    passed     92.63%
+  57  Methanosarcina_thermophila_TM-1_tRNA-Ile-GAT-1-1            73.63%    passed     20.63%
+  58  Methanosarcina_thermophila_TM-1_tRNA-Val-TAC-1-1            74.66%    passed     82.01%
+  59  Methanosarcina_thermophila_TM-1_tRNA-Val-CAC-1-1            74.66%    passed     83.37%
+  60  Methanosarcina_thermophila_TM-1_tRNA-Val-GAC-1-1            74.66%    passed     79.71%
+  61  Saccharomyces_cerevisiae_tRNA-Val-TAC-1-1                   74.66%    passed     95.00%
+  62  Saccharomyces_cerevisiae_tRNA-Val-CAC-1-1                   75.00%    passed     83.73%
+  63  Methanosarcina_thermophila_TM-1_tRNA-Arg-GCG-1-1            75.34%    passed     97.36%
+  64  Methanosarcina_thermophila_TM-1_tRNA-Gln-CTG-1-1            75.00%    passed     95.17%
+  65  Methanosarcina_thermophila_TM-1_tRNA-Gln-TTG-1-1            75.00%    passed     95.88%
+  66  Methanosarcina_thermophila_TM-1_tRNA-Asp-GTC-1-1            75.00%    passed     54.95%
+  67  Methanosarcina_thermophila_TM-1_tRNA-Glu-CTC-1-1            74.32%    passed     42.62%
+  68  Methanosarcina_thermophila_TM-1_tRNA-Glu-TTC-1-1            73.29%    passed     40.30%
+  69  Methanosarcina_thermophila_TM-1_tRNA-iMet-CAT-1-1           74.32%    passed     41.68%
+  70  Escherichia_coli_str_K-12_substr_MG1655_tRNA-fMet-CAT-1-1   73.63%    passed     20.61%
+  71  Escherichia_coli_str_K-12_substr_MG1655_tRNA-fMet-CAT-2-1   73.63%    passed     22.27%
+  72  Saccharomyces_cerevisiae_tRNA-His-GTG-1-1                   75.34%    passed     47.02%
+  73  Homo_sapiens_tRNA-His-GTG-1-1                               75.34%    passed     97.00%
+  74  Homo_sapiens_tRNA-His-GTG-2-1                               75.34%    passed     96.46%
+  75  Methanosarcina_thermophila_TM-1_tRNA-Ala-TGC-1-1            75.00%    passed     87.59%
+  76  Methanosarcina_thermophila_TM-1_tRNA-Ala-CGC-1-1            75.34%    passed     68.96%
+  77  Methanosarcina_thermophila_TM-1_tRNA-Ala-GGC-1-1            75.34%    passed     71.50%
+  78  Escherichia_coli_str_K-12_substr_MG1655_tRNA-Arg-CCT-1-1    74.32%    passed     51.93%
+  79  Saccharomyces_cerevisiae_tRNA-iMet-CAT-1-1                  75.34%    passed     25.20%
+  80  Homo_sapiens_tRNA-iMet-CAT-1-1                              75.34%    passed     35.90%
+  81  Homo_sapiens_tRNA-iMet-CAT-2-1                              75.34%    passed     46.69%
+  82  Arabidopsis_thaliana_tRNA-iMet-CAT-1-1                      75.34%    passed     26.80%
+  83  Arabidopsis_thaliana_tRNA-Met-CAT-4-1                       75.34%    passed     39.88%
+  84  Arabidopsis_thaliana_tRNA-Met-CAT-1-1                       75.34%    passed     35.90%
+  85  Saccharomyces_cerevisiae_tRNA-Gly-TCC-1-1                   75.34%    passed     87.62%
+  86  Escherichia_coli_str_K-12_substr_MG1655_tRNA-Asp-GTC-1-1    73.63%    passed     54.11%
+  87  Saccharomyces_cerevisiae_tRNA-Asp-GTC-1-1                   75.34%    passed     83.68%
+  88  Saccharomyces_cerevisiae_tRNA-Asp-GTC-2-1                   75.68%    passed     99.98%
+  89  Saccharomyces_cerevisiae_tRNA-Glu-CTC-1-1                   75.34%    passed     75.40%
+  90  Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-1                   75.34%    passed     81.49%
+  91  Saccharomyces_cerevisiae_tRNA-Glu-TTC-2-1                   75.34%    passed     85.88%
+  92  Homo_sapiens_tRNA-Asp-GTC-1-1                               75.34%    passed     88.81%
+  93  Homo_sapiens_tRNA-Asp-GTC-3-1                               75.34%    passed     56.20%
+  94  Homo_sapiens_tRNA-Asp-GTC-2-1                               75.34%    passed     69.98%
+  95  Arabidopsis_thaliana_tRNA-Asp-GTC-7-1                       75.34%    passed     89.67%
+  96  Arabidopsis_thaliana_tRNA-Asp-GTC-5-1                       75.34%    passed     97.00%
+  97  Arabidopsis_thaliana_tRNA-Asp-GTC-6-1                       75.34%    passed     89.67%
+  98  Arabidopsis_thaliana_tRNA-Asp-GTC-1-1                       75.34%    passed     59.17%
+  99  Arabidopsis_thaliana_tRNA-Asp-GTC-2-1                       75.34%    passed     76.30%
+ 100  Homo_sapiens_tRNA-Glu-CTC-1-1                               75.34%    passed     25.64%
+ 101  Homo_sapiens_tRNA-Glu-CTC-2-1                               75.34%    passed     38.83%
+ 102  Homo_sapiens_tRNA-Glu-TTC-3-1                               75.34%    passed     20.42%
+ 103  Homo_sapiens_tRNA-Glu-TTC-4-1                               75.34%    passed     25.64%
+ 104  Homo_sapiens_tRNA-Glu-TTC-1-1                               75.34%    passed     70.92%
+ 105  Homo_sapiens_tRNA-Glu-TTC-2-1                               75.34%    passed     59.20%
+ 106  Arabidopsis_thaliana_tRNA-Glu-CTC-1-1                       75.00%    passed     66.27%
+ 107  Arabidopsis_thaliana_tRNA-Glu-CTC-3-1                       75.00%    passed     88.19%
+ 108  Arabidopsis_thaliana_tRNA-Glu-CTC-5-1                       75.00%    passed     78.86%
+ 109  Arabidopsis_thaliana_tRNA-Glu-CTC-2-1                       75.00%    passed     75.14%
+ 110  Arabidopsis_thaliana_tRNA-Glu-TTC-2-1                       75.34%    passed     92.71%
+ 111  Arabidopsis_thaliana_tRNA-Glu-TTC-1-1                       75.34%    passed     83.18%
+ 112  Arabidopsis_thaliana_tRNA-Glu-TTC-5-1                       75.34%    passed     92.71%
+ 113  Arabidopsis_thaliana_tRNA-Glu-TTC-4-1                       75.34%    passed     83.18%
+ 114  Methanosarcina_thermophila_TM-1_tRNA-Gly-CCC-1-1            75.34%    passed     96.46%
+ 115  Methanosarcina_thermophila_TM-1_tRNA-Gly-TCC-1-1            75.34%    passed     76.48%
+ 116  Homo_sapiens_tRNA-Gly-CCC-2-1                               75.68%    passed     60.02%
+ 117  Arabidopsis_thaliana_tRNA-Gly-CCC-1-1                       75.68%    passed     89.26%
+ 118  Arabidopsis_thaliana_tRNA-Gly-GCC-1-1                       75.68%    passed     85.41%
+ 119  Arabidopsis_thaliana_tRNA-Gly-GCC-6-1                       75.68%    passed     86.00%
+ 120  Arabidopsis_thaliana_tRNA-Gly-GCC-3-1                       75.68%    passed     91.42%
+ 121  Arabidopsis_thaliana_tRNA-Gly-GCC-5-1                       75.68%    passed     99.02%
+ 122  Arabidopsis_thaliana_tRNA-Gly-GCC-8-1                       75.68%    passed     86.00%
+ 123  Arabidopsis_thaliana_tRNA-Gly-GCC-2-1                       75.68%    passed     93.00%
+ 124  Saccharomyces_cerevisiae_tRNA-Arg-CCG-1-1                   75.34%    passed     56.68%
+ 125  Homo_sapiens_tRNA-Gly-GCC-4-1                               75.68%    passed     97.81%
+ 126  Homo_sapiens_tRNA-Gly-GCC-5-1                               75.68%    passed     65.47%
+ 127  Homo_sapiens_tRNA-Gly-CCC-3-1                               75.68%    passed     87.74%
+ 128  Homo_sapiens_tRNA-Gly-CCC-1-1                               75.68%    passed     86.56%
+ 129  Homo_sapiens_tRNA-Gly-GCC-1-1                               75.68%    passed     48.69%
+ 130  Homo_sapiens_tRNA-Gly-GCC-3-1                               75.68%    passed     62.11%
+ 131  Homo_sapiens_tRNA-Gly-GCC-2-1                               75.68%    passed     74.62%
+ 132  Arabidopsis_thaliana_tRNA-Gly-TCC-1-1                       75.34%    passed     65.67%
+ 133  Homo_sapiens_tRNA-Gly-TCC-4-1                               75.34%    passed     95.20%
+ 134  Homo_sapiens_tRNA-Gly-TCC-1-1                               75.34%    passed     97.00%
+ 135  Homo_sapiens_tRNA-Gly-TCC-2-1                               75.34%    passed     97.52%
+ 136  Homo_sapiens_tRNA-Gly-TCC-3-1                               75.34%    passed     99.63%
+ 137  Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-1                   75.68%    passed     91.61%
+ 138  Saccharomyces_cerevisiae_tRNA-Gly-CCC-1-1                   75.34%    passed     94.52%
+ 139  Saccharomyces_cerevisiae_tRNA-Gly-CCC-2-1                   75.34%    passed     97.00%
+ 140  Escherichia_coli_str_K-12_substr_MG1655_tRNA-Leu-TAG-1-1    70.89%    passed     86.93%
+ 141  Escherichia_coli_str_K-12_substr_MG1655_tRNA-Leu-CAG-1-1    70.21%    passed     84.00%
+ 142  Escherichia_coli_str_K-12_substr_MG1655_tRNA-Leu-CAG-2-1    70.21%    passed     89.90%
+ 143  Escherichia_coli_str_K-12_substr_MG1655_tRNA-Leu-GAG-1-1    70.21%    passed     97.17%
+ 144  Escherichia_coli_str_K-12_substr_MG1655_tRNA-Leu-TAA-1-1    70.21%    passed     90.00%
+ 145  Escherichia_coli_str_K-12_substr_MG1655_tRNA-Glu-TTC-1-1    73.97%    passed     18.71%
+ 146  Arabidopsis_thaliana_tRNA-His-GTG-4-1                       75.34%    passed     96.24%
+ 147  Arabidopsis_thaliana_tRNA-His-GTG-1-1                       75.34%    passed     98.98%
+ 148  Arabidopsis_thaliana_tRNA-His-GTG-2-1                       75.34%    passed     98.30%
+ 149  Escherichia_coli_str_K-12_substr_MG1655_tRNA-Tyr-GTA-1-1    70.89%    passed     30.04%
+ 150  Escherichia_coli_str_K-12_substr_MG1655_tRNA-Tyr-GTA-2-1    70.89%    passed     40.42%
+ 151  Arabidopsis_thaliana_tRNA-Trp-CCA-4-1                       74.66%    passed     69.21%
+ 152  Methanosarcina_thermophila_TM-1_tRNA-Cys-GCA-3-1            75.34%    passed     86.05%
+ 153  Escherichia_coli_str_K-12_substr_MG1655_tRNA-Trp-CCA-1-1    73.97%    passed     95.02%
+ 154  Escherichia_coli_str_K-12_substr_MG1655_tRNA-Pro-GGG-1-1    73.63%    passed     36.63%
+ 155  Escherichia_coli_str_K-12_substr_MG1655_tRNA-Pro-CGG-1-1    73.63%    passed     86.17%
+ 156  Escherichia_coli_str_K-12_substr_MG1655_tRNA-Pro-TGG-1-1    73.63%    passed     74.57%
+ 157  Escherichia_coli_str_K-12_substr_MG1655_tRNA-Und-NNN-2-1    66.78%    passed     30.34%
+ 158  Escherichia_coli_str_K-12_substr_MG1655_tRNA-His-GTG-1-1    73.97%    passed     73.87%
+ 159  Arabidopsis_thaliana_tRNA-Asn-GTT-7-1                       75.34%    passed     59.36%
+ 160  Escherichia_coli_str_K-12_substr_MG1655_tRNA-Asn-GTT-1-1    73.97%    passed     93.60%
+ 161  Methanosarcina_thermophila_TM-1_tRNA-Arg-TCG-1-1            67.81%    passed     97.45%
+ 162  Methanosarcina_thermophila_TM-1_tRNA-Arg-CCT-1-1            74.32%    passed     54.95%
+ 163  Methanosarcina_thermophila_TM-1_tRNA-Arg-TCT-1-1            74.32%    passed     80.21%
+ 164  Methanosarcina_thermophila_TM-1_tRNA-Lys-CTT-1-1            74.66%    passed     85.75%
+ 165  Methanosarcina_thermophila_TM-1_tRNA-Lys-TTT-1-1            73.63%    passed     45.12%
+ 166  Escherichia_coli_str_K-12_substr_MG1655_tRNA-Met-CAT-1-1    73.63%    passed     69.89%
+ 167  Methanosarcina_thermophila_TM-1_tRNA-Thr-TGT-1-1            74.66%    passed     98.30%
+ 168  Arabidopsis_thaliana_tRNA-Tyr-GTA-8-1                       70.89%    passed     60.87%
+ 169  Arabidopsis_thaliana_tRNA-Tyr-GTA-6-1                       70.89%    passed     79.98%
+ 170  Arabidopsis_thaliana_tRNA-Tyr-GTA-3-5                       70.89%    passed     85.23%
+ 171  Arabidopsis_thaliana_tRNA-Tyr-GTA-3-6                       70.89%    passed     72.46%
+ 172  Arabidopsis_thaliana_tRNA-Tyr-GTA-3-1                       70.89%    passed     84.52%
+ 173  Arabidopsis_thaliana_tRNA-Tyr-GTA-3-27                      70.89%    passed     69.02%
+ 174  Arabidopsis_thaliana_tRNA-Tyr-GTA-4-1                       70.89%    passed     72.46%
+ 175  Arabidopsis_thaliana_tRNA-Tyr-GTA-5-1                       70.89%    passed     72.46%
+ 176  Arabidopsis_thaliana_tRNA-Tyr-GTA-3-10                      70.89%    passed     84.52%
+ 177  Arabidopsis_thaliana_tRNA-Tyr-GTA-2-12                      71.23%    passed     71.81%
+ 178  Arabidopsis_thaliana_tRNA-Tyr-GTA-2-4                       71.23%    passed     56.49%
+ 179  Arabidopsis_thaliana_tRNA-Tyr-GTA-2-9                       71.23%    passed     71.81%
+ 180  Arabidopsis_thaliana_tRNA-Tyr-GTA-2-11                      71.23%    passed     62.50%
+ 181  Arabidopsis_thaliana_tRNA-Tyr-GTA-2-3                       69.52%    passed     44.62%
+ 182  Arabidopsis_thaliana_tRNA-Tyr-GTA-2-14                      69.52%    passed     67.39%
+ 183  Arabidopsis_thaliana_tRNA-Tyr-GTA-2-7                       70.89%    passed     84.16%
+ 184  Arabidopsis_thaliana_tRNA-Tyr-GTA-2-1                       70.89%    passed     80.74%
+ 185  Arabidopsis_thaliana_tRNA-Tyr-GTA-1-1                       70.89%    passed     63.56%
+ 186  Arabidopsis_thaliana_tRNA-Tyr-GTA-2-13                      70.55%    passed     91.98%
+ 187  Arabidopsis_thaliana_tRNA-Tyr-GTA-2-10                      70.55%    passed     72.65%
+ 188  Homo_sapiens_tRNA-Tyr-GTA-9-1                               69.86%    passed     75.00%
+ 189  Homo_sapiens_tRNA-Tyr-GTA-2-1                               69.52%    passed     63.91%
+ 190  Homo_sapiens_tRNA-Tyr-ATA-1-1                               68.15%    passed     51.41%
+ 191  Homo_sapiens_tRNA-Tyr-GTA-5-2                               69.52%    passed     61.80%
+ 192  Homo_sapiens_tRNA-Tyr-GTA-4-1                               67.81%    passed     75.71%
+ 193  Homo_sapiens_tRNA-Tyr-GTA-5-4                               67.81%    passed     91.78%
+ 194  Homo_sapiens_tRNA-Tyr-GTA-7-1                               67.81%    passed     93.51%
+ 195  Homo_sapiens_tRNA-Tyr-GTA-5-3                               67.81%    passed     91.78%
+ 196  Homo_sapiens_tRNA-Tyr-GTA-5-1                               68.15%    passed     99.81%
+ 197  Homo_sapiens_tRNA-Tyr-GTA-6-1                               69.52%    passed     57.65%
+ 198  Homo_sapiens_tRNA-Tyr-GTA-5-5                               69.52%    passed     72.79%
+ 199  Homo_sapiens_tRNA-Tyr-GTA-1-1                               68.84%    passed     79.07%
+ 200  Homo_sapiens_tRNA-Tyr-GTA-3-1                               69.52%    passed     87.00%
+ 201  Homo_sapiens_tRNA-Tyr-GTA-8-1                               69.18%    passed     61.61%
+ 202  Escherichia_coli_str_K-12_substr_MG1655_tRNA-Ile2-CAT-1-1   73.97%    passed     88.26%
+ 203  Escherichia_coli_str_K-12_substr_MG1655_tRNA-Ile2-CAT-2-1   73.97%    passed     94.80%
+ 204  Escherichia_coli_str_K-12_substr_MG1655_tRNA-Thr-TGT-1-1    73.97%    passed     69.94%
+ 205  Methanosarcina_thermophila_TM-1_tRNA-Ile2-CAT-1-1           74.32%    passed     81.61%
+ 206  Escherichia_coli_str_K-12_substr_MG1655_tRNA-Lys-TTT-1-1    73.97%    passed     73.35%
+ 207  Homo_sapiens_tRNA-Cys-GCA-23-1                              75.34%    passed     88.01%
+ 208  Homo_sapiens_tRNA-Cys-GCA-12-1                              75.34%    passed     79.13%
+ 209  Homo_sapiens_tRNA-Cys-GCA-21-1                              75.34%    passed     97.26%
+ 210  Homo_sapiens_tRNA-Cys-GCA-16-1                              75.34%    passed     90.08%
+ 211  Homo_sapiens_tRNA-Cys-GCA-19-1                              75.34%    passed     78.51%
+ 212  Homo_sapiens_tRNA-Cys-GCA-10-1                              75.34%    passed     93.32%
+ 213  Homo_sapiens_tRNA-Cys-GCA-15-1                              75.34%    passed     93.20%
+ 214  Homo_sapiens_tRNA-Cys-GCA-18-1                              75.34%    passed     93.20%
+ 215  Homo_sapiens_tRNA-Cys-GCA-3-1                               75.34%    passed     93.32%
+ 216  Homo_sapiens_tRNA-Cys-GCA-9-1                               75.34%    passed     95.56%
+ 217  Homo_sapiens_tRNA-Cys-GCA-22-1                              76.03%    passed     82.10%
+ 218  Homo_sapiens_tRNA-Cys-GCA-13-1                              75.34%    passed     95.56%
+ 219  Homo_sapiens_tRNA-Cys-GCA-20-1                              75.34%    passed     97.26%
+ 220  Homo_sapiens_tRNA-Cys-GCA-1-1                               75.34%    passed     97.26%
+ 221  Homo_sapiens_tRNA-Cys-GCA-6-1                               75.34%    passed     98.98%
+ 222  Homo_sapiens_tRNA-Cys-GCA-17-1                              75.34%    passed     85.62%
+ 223  Homo_sapiens_tRNA-Cys-GCA-11-1                              75.34%    passed     99.06%
+ 224  Homo_sapiens_tRNA-Cys-GCA-4-1                               75.34%    passed     98.98%
+ 225  Homo_sapiens_tRNA-Cys-GCA-2-1                               75.34%    passed     99.06%
+ 226  Homo_sapiens_tRNA-Cys-GCA-5-1                               75.00%    passed     97.71%
+ 227  Homo_sapiens_tRNA-Cys-GCA-14-1                              75.34%    passed     93.32%
+ 228  Homo_sapiens_tRNA-Cys-GCA-8-1                               75.34%    passed     93.95%
+ 229  Homo_sapiens_tRNA-Cys-GCA-7-1                               75.00%    passed     97.71%
+ 230  Arabidopsis_thaliana_tRNA-Cys-GCA-2-1                       75.34%    passed     84.52%
+ 231  Arabidopsis_thaliana_tRNA-Cys-GCA-6-1                       75.34%    passed     93.21%
+ 232  Arabidopsis_thaliana_tRNA-Cys-GCA-8-1                       75.34%    passed     85.44%
+ 233  Arabidopsis_thaliana_tRNA-Cys-GCA-1-1                       75.34%    passed     97.15%
+ 234  Arabidopsis_thaliana_tRNA-Cys-GCA-12-1                      75.34%    passed     84.52%
+ 235  Arabidopsis_thaliana_tRNA-Cys-GCA-5-1                       75.34%    passed     99.06%
+ 236  Arabidopsis_thaliana_tRNA-Cys-GCA-4-1                       75.34%    passed     99.06%
+ 237  Arabidopsis_thaliana_tRNA-Cys-GCA-11-1                      75.34%    passed     76.42%
+ 238  Arabidopsis_thaliana_tRNA-Cys-GCA-7-1                       75.34%    passed     97.15%
+ 239  Arabidopsis_thaliana_tRNA-Cys-GCA-9-1                       75.34%    passed     90.15%
+ 240  Arabidopsis_thaliana_tRNA-Cys-GCA-3-1                       75.34%    passed     97.26%
+ 241  Homo_sapiens_tRNA-Pro-TGG-2-1                               75.34%    passed     55.93%
+ 242  Homo_sapiens_tRNA-Pro-CGG-2-1                               75.34%    passed     55.93%
+ 243  Homo_sapiens_tRNA-Pro-CGG-1-1                               75.34%    passed     56.20%
+ 244  Homo_sapiens_tRNA-Pro-AGG-1-1                               75.34%    passed     85.87%
+ 245  Homo_sapiens_tRNA-Pro-AGG-2-1                               75.34%    passed     69.09%
+ 246  Homo_sapiens_tRNA-Pro-TGG-1-1                               75.34%    passed     58.45%
+ 247  Homo_sapiens_tRNA-Pro-TGG-3-1                               75.34%    passed     55.93%
+ 248  Arabidopsis_thaliana_tRNA-Leu-AAG-4-1                       75.34%    passed     41.74%
+ 249  Arabidopsis_thaliana_tRNA-Pro-CGG-1-1                       75.34%    passed     47.49%
+ 250  Arabidopsis_thaliana_tRNA-Pro-CGG-2-1                       75.34%    passed     40.49%
+ 251  Arabidopsis_thaliana_tRNA-Pro-CGG-3-1                       75.34%    passed     33.53%
+ 252  Arabidopsis_thaliana_tRNA-Pro-TGG-2-1                       75.34%    passed     36.12%
+ 253  Arabidopsis_thaliana_tRNA-Pro-TGG-4-1                       75.34%    passed     40.55%
+ 254  Arabidopsis_thaliana_tRNA-Pro-TGG-1-1                       75.34%    passed     33.53%
+ 255  Arabidopsis_thaliana_tRNA-Pro-AGG-1-1                       75.34%    passed     67.08%
+ 256  Arabidopsis_thaliana_tRNA-Pro-AGG-3-1                       75.34%    passed     65.65%
+ 257  Arabidopsis_thaliana_tRNA-Pro-AGG-2-1                       75.34%    passed     65.65%
+ 258  Arabidopsis_thaliana_tRNA-Pro-AGG-4-1                       75.34%    passed     54.95%
+ 259  Saccharomyces_cerevisiae_tRNA-Pro-AGG-1-1                   75.34%    passed     11.48%
+ 260  Saccharomyces_cerevisiae_tRNA-Pro-TGG-2-1                   64.04%    passed     89.23%
+ 261  Saccharomyces_cerevisiae_tRNA-Pro-TGG-1-8                   65.07%    passed     93.89%
+ 262  Saccharomyces_cerevisiae_tRNA-Pro-TGG-1-1                   64.73%    passed     99.78%
+ 263  Saccharomyces_cerevisiae_tRNA-Pro-TGG-1-2                   64.73%    passed     99.07%
+ 264  Saccharomyces_cerevisiae_tRNA-Pro-TGG-1-3                   64.73%    passed     97.55%
+ 265  Saccharomyces_cerevisiae_tRNA-Pro-TGG-1-4                   64.73%    passed     99.47%
+ 266  Saccharomyces_cerevisiae_tRNA-Pro-TGG-1-9                   65.07%    passed     99.33%
+ 267  Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-1                   75.00%    passed     36.09%
+ 268  Saccharomyces_cerevisiae_tRNA-Ala-TGC-1-1                   75.00%    passed     85.58%
+ 269  Escherichia_coli_str_K-12_substr_MG1655_tRNA-Val-TAC-1-1    73.97%    passed     64.24%
+ 270  Saccharomyces_cerevisiae_tRNA-Ile-TAT-1-1                   54.45%    passed     27.23%
+ 271  Saccharomyces_cerevisiae_tRNA-Ile-TAT-2-1                   54.45%    passed     29.14%
+ 272  Escherichia_coli_str_K-12_substr_MG1655_tRNA-Ala-GGC-1-1    73.97%    passed     85.45%
+ 273  Escherichia_coli_str_K-12_substr_MG1655_tRNA-Ala-TGC-1-1    73.97%    passed     63.55%
+ 274  Homo_sapiens_tRNA-Val-AAC-6-1                               75.34%    passed     95.76%
+ 275  Homo_sapiens_tRNA-Ala-CGC-4-1                               75.34%    passed     20.88%
+ 276  Homo_sapiens_tRNA-Ala-CGC-3-1                               75.34%    passed     69.98%
+ 277  Homo_sapiens_tRNA-Ala-TGC-5-1                               75.34%    passed     89.67%
+ 278  Homo_sapiens_tRNA-Ala-TGC-7-1                               75.68%    passed     92.28%
+ 279  Homo_sapiens_tRNA-Ala-AGC-4-1                               75.34%    passed     98.59%
+ 280  Homo_sapiens_tRNA-Ala-TGC-6-1                               75.34%    passed     69.98%
+ 281  Homo_sapiens_tRNA-Ala-TGC-1-1                               75.34%    passed     75.04%
+ 282  Homo_sapiens_tRNA-Ala-TGC-4-1                               75.34%    passed     93.43%
+ 283  Homo_sapiens_tRNA-Ala-CGC-2-1                               75.34%    passed     84.64%
+ 284  Homo_sapiens_tRNA-Ala-CGC-1-1                               75.34%    passed     89.67%
+ 285  Homo_sapiens_tRNA-Ala-TGC-3-1                               75.34%    passed     89.67%
+ 286  Homo_sapiens_tRNA-Ala-TGC-2-1                               75.34%    passed     89.36%
+ 287  Homo_sapiens_tRNA-Ala-AGC-5-1                               75.34%    passed     73.37%
+ 288  Homo_sapiens_tRNA-Ala-AGC-3-1                               75.34%    passed     75.39%
+ 289  Homo_sapiens_tRNA-Ala-AGC-2-1                               75.34%    passed     46.81%
+ 290  Homo_sapiens_tRNA-Ala-AGC-7-1                               75.34%    passed     62.49%
+ 291  Homo_sapiens_tRNA-Ala-AGC-1-1                               75.34%    passed     94.20%
+ 292  Homo_sapiens_tRNA-Ala-AGC-6-1                               75.34%    passed     92.80%
+ 293  Homo_sapiens_tRNA-Ala-AGC-9-1                               75.00%    passed     65.65%
+ 294  Homo_sapiens_tRNA-Ala-AGC-10-1                              75.00%    passed     76.02%
+ 295  Homo_sapiens_tRNA-Ala-AGC-13-1                              75.00%    passed     76.02%
+ 296  Homo_sapiens_tRNA-Ala-AGC-14-1                              75.00%    passed     58.91%
+ 297  Homo_sapiens_tRNA-Ala-AGC-16-1                              75.00%    passed     76.02%
+ 298  Homo_sapiens_tRNA-Ala-AGC-12-1                              75.00%    passed     70.71%
+ 299  Homo_sapiens_tRNA-Ala-AGC-8-1                               75.00%    passed     79.73%
+ 300  Homo_sapiens_tRNA-Ala-AGC-15-1                              75.00%    passed     85.17%
+ 301  Homo_sapiens_tRNA-Ala-AGC-11-1                              75.00%    passed     83.30%
+ 302  Arabidopsis_thaliana_tRNA-Ala-AGC-2-1                       75.00%    passed     69.03%
+ 303  Arabidopsis_thaliana_tRNA-Ala-AGC-8-1                       75.00%    passed     77.86%
+ 304  Arabidopsis_thaliana_tRNA-Ala-AGC-1-1                       75.00%    passed     79.73%
+ 305  Arabidopsis_thaliana_tRNA-Ala-TGC-1-1                       75.00%    passed     90.45%
+ 306  Arabidopsis_thaliana_tRNA-Ala-TGC-4-1                       75.00%    passed     99.45%
+ 307  Arabidopsis_thaliana_tRNA-Ala-CGC-2-1                       75.00%    passed     91.51%
+ 308  Arabidopsis_thaliana_tRNA-Ala-CGC-1-1                       75.00%    passed     70.09%
+ 309  Arabidopsis_thaliana_tRNA-Ala-CGC-3-1                       75.00%    passed     80.50%
+ 310  Escherichia_coli_str_K-12_substr_MG1655_tRNA-Arg-ACG-1-1    73.63%    passed     60.95%
+ 311  Escherichia_coli_str_K-12_substr_MG1655_tRNA-Arg-CCG-1-1    73.63%    passed     22.86%
+ 312  Escherichia_coli_str_K-12_substr_MG1655_tRNA-Arg-TCT-1-1    73.63%    passed     73.98%
+ 313  Escherichia_coli_str_K-12_substr_MG1655_tRNA-Und-NNN-1-1    67.47%    passed     88.42%
+ 314  Arabidopsis_thaliana_tRNA-Thr-AGT-2-1                       74.66%    passed     36.19%
+ 315  Arabidopsis_thaliana_tRNA-Thr-AGT-1-1                       74.66%    passed     86.70%
+ 316  Arabidopsis_thaliana_tRNA-Thr-AGT-3-1                       74.66%    passed     73.24%
+ 317  Escherichia_coli_str_K-12_substr_MG1655_tRNA-Ile-GAT-1-1    73.63%    passed     98.23%
+ 318  Escherichia_coli_str_K-12_substr_MG1655_tRNA-Val-GAC-1-1    73.63%    passed     84.62%
+ 319  Escherichia_coli_str_K-12_substr_MG1655_tRNA-Val-GAC-2-1    73.63%    passed     95.69%
+ 320  Methanosarcina_thermophila_TM-1_tRNA-Tyr-GTA-1-1            60.27%    passed     56.21%
+ 321  Saccharomyces_cerevisiae_tRNA-Arg-CCT-1-1                   75.34%    passed     98.59%
+ 322  Saccharomyces_cerevisiae_tRNA-Trp-CCA-1-1                   63.70%    passed      9.60%
+ 323  Escherichia_coli_str_K-12_substr_MG1655_tRNA-Gly-CCC-1-1    74.66%    passed     80.64%
+ 324  Escherichia_coli_str_K-12_substr_MG1655_tRNA-Gly-TCC-1-1    74.32%    passed     47.55%
+ 325  Escherichia_coli_str_K-12_substr_MG1655_tRNA-Gly-GCC-1-1    73.97%    passed     88.05%
+ 326  Saccharomyces_cerevisiae_tRNA-Cys-GCA-1-1                   75.34%    passed     81.65%
+ 327  Escherichia_coli_str_K-12_substr_MG1655_tRNA-Thr-CGT-1-1    73.97%    passed     83.17%
+ 328  Escherichia_coli_str_K-12_substr_MG1655_tRNA-Thr-CGT-2-1    75.68%    passed      9.23%
+ 329  Escherichia_coli_str_K-12_substr_MG1655_tRNA-Thr-GGT-1-1    73.97%    passed     96.49%
+ 330  Escherichia_coli_str_K-12_substr_MG1655_tRNA-Thr-GGT-2-1    73.97%    passed     99.94%
+ 331  Methanosarcina_thermophila_TM-1_tRNA-Met-CAT-1-1            61.99%    passed     96.21%
+ 332  Escherichia_coli_str_K-12_substr_MG1655_tRNA-Phe-GAA-1-1    73.97%    passed     93.70%
+ 333  Methanosarcina_thermophila_TM-1_tRNA-Phe-GAA-1-1            74.32%    passed     44.08%
+ 334  Homo_sapiens_tRNA-Phe-GAA-6-1                               74.66%    passed     62.77%
+ 335  Homo_sapiens_tRNA-Phe-GAA-1-1                               75.00%    passed     87.47%
+ 336  Homo_sapiens_tRNA-Phe-GAA-3-1                               75.00%    passed     87.47%
+ 337  Homo_sapiens_tRNA-Phe-GAA-4-1                               74.66%    passed     83.72%
+ 338  Homo_sapiens_tRNA-Phe-GAA-2-1                               75.00%    passed     78.08%
+ 339  Saccharomyces_cerevisiae_tRNA-Phe-GAA-1-1                   68.49%    passed     37.00%
+ 340  Saccharomyces_cerevisiae_tRNA-Phe-GAA-1-2                   68.84%    passed     67.52%
+ 341  Saccharomyces_cerevisiae_tRNA-Phe-GAA-2-1                   68.84%    passed     50.69%
+ 342  Saccharomyces_cerevisiae_tRNA-Phe-GAA-2-6                   68.84%    passed     54.33%
+ 343  Saccharomyces_cerevisiae_tRNA-Phe-GAA-2-2                   68.49%    passed     35.42%
+ 344  Arabidopsis_thaliana_tRNA-Phe-GAA-1-1                       75.00%    passed     79.73%
+ 345  Homo_sapiens_tRNA-Ile-TAT-2-1                               68.15%    passed     86.96%
+ 346  Homo_sapiens_tRNA-Ile-TAT-2-2                               67.81%    passed     78.82%
+ 347  Homo_sapiens_tRNA-Ile-TAT-2-3                               67.81%    passed     96.84%
+ 348  Homo_sapiens_tRNA-Ile-TAT-1-1                               68.15%    passed     94.52%
+ 349  Homo_sapiens_tRNA-Ile-TAT-3-1                               67.81%    passed     92.58%
+ 350  Methanosarcina_thermophila_TM-1_tRNA-Thr-GGT-1-1            75.34%    passed     59.16%
+ 351  Arabidopsis_thaliana_tRNA-Thr-CGT-3-1                       75.34%    passed     86.60%
+ 352  Arabidopsis_thaliana_tRNA-Thr-CGT-1-1                       75.34%    passed     76.30%
+ 353  Arabidopsis_thaliana_tRNA-Thr-CGT-2-1                       75.34%    passed     91.01%
+ 354  Arabidopsis_thaliana_tRNA-Arg-CCT-3-1                       75.00%    passed     97.93%
+ 355  Arabidopsis_thaliana_tRNA-Arg-CCT-1-1                       75.00%    passed     95.17%
+ 356  Arabidopsis_thaliana_tRNA-Arg-CCT-2-1                       75.00%    passed     99.26%
+ 357  Methanosarcina_thermophila_TM-1_tRNA-Asn-GTT-1-1            75.00%    passed     85.95%
+ 358  Methanosarcina_thermophila_TM-1_tRNA-Asn-GTT-2-1            75.00%    passed     95.73%
+ 359  Arabidopsis_thaliana_tRNA-Asn-GTT-4-1                       74.66%    passed     97.79%
+ 360  Arabidopsis_thaliana_tRNA-Asn-GTT-5-1                       74.66%    passed     90.86%
+ 361  Arabidopsis_thaliana_tRNA-Asn-GTT-8-1                       74.66%    passed     98.88%
+ 362  Arabidopsis_thaliana_tRNA-Asn-GTT-9-1                       74.32%    passed     93.98%
+ 363  Arabidopsis_thaliana_tRNA-Asn-GTT-1-1                       74.66%    passed     90.86%
+ 364  Arabidopsis_thaliana_tRNA-Asn-GTT-3-1                       74.66%    passed     97.79%
+ 365  Arabidopsis_thaliana_tRNA-Asn-GTT-2-1                       74.66%    passed     99.81%
+ 366  Homo_sapiens_tRNA-SeC-TCA-1-1                               70.21%    passed     91.87%
+ 367  Arabidopsis_thaliana_tRNA-Lys-TTT-4-1                       75.34%    passed     77.73%
+ 368  Arabidopsis_thaliana_tRNA-Lys-TTT-2-1                       75.34%    passed     56.55%
+ 369  Arabidopsis_thaliana_tRNA-Lys-TTT-1-1                       75.34%    passed     68.64%
+ 370  Arabidopsis_thaliana_tRNA-Lys-TTT-3-1                       75.34%    passed     56.55%
+ 371  Homo_sapiens_tRNA-Lys-TTT-11-1                              75.00%    passed     40.97%
+ 372  Homo_sapiens_tRNA-Lys-TTT-7-1                               75.00%    passed     80.98%
+ 373  Homo_sapiens_tRNA-Lys-TTT-3-1                               75.00%    passed     99.45%
+ 374  Homo_sapiens_tRNA-Lys-TTT-5-1                               75.00%    passed     95.63%
+ 375  Homo_sapiens_tRNA-Lys-TTT-6-1                               75.00%    passed     99.45%
+ 376  Homo_sapiens_tRNA-Lys-TTT-1-1                               75.00%    passed     80.98%
+ 377  Homo_sapiens_tRNA-Lys-TTT-4-1                               75.00%    passed     96.07%
+ 378  Homo_sapiens_tRNA-Lys-TTT-2-1                               75.00%    passed     85.95%
+ 379  Arabidopsis_thaliana_tRNA-Lys-CTT-1-1                       75.00%    passed     72.31%
+ 380  Arabidopsis_thaliana_tRNA-Lys-CTT-3-1                       75.00%    passed     54.75%
+ 381  Arabidopsis_thaliana_tRNA-Lys-CTT-2-1                       75.00%    passed     54.11%
+ 382  Homo_sapiens_tRNA-Lys-CTT-9-1                               75.00%    passed     73.02%
+ 383  Homo_sapiens_tRNA-Lys-CTT-8-1                               75.00%    passed     95.88%
+ 384  Homo_sapiens_tRNA-Lys-CTT-5-1                               75.00%    passed     90.35%
+ 385  Homo_sapiens_tRNA-Lys-CTT-3-1                               75.00%    passed     70.09%
+ 386  Homo_sapiens_tRNA-Lys-CTT-2-1                               75.00%    passed     80.50%
+ 387  Homo_sapiens_tRNA-Lys-CTT-1-1                               75.00%    passed     54.95%
+ 388  Homo_sapiens_tRNA-Lys-CTT-4-1                               75.00%    passed     64.21%
+ 389  Homo_sapiens_tRNA-Lys-CTT-10-1                              75.00%    passed     97.39%
+ 390  Homo_sapiens_tRNA-Lys-CTT-11-1                              74.66%    passed     97.79%
+ 391  Homo_sapiens_tRNA-Lys-CTT-7-1                               75.00%    passed     97.39%
+ 392  Homo_sapiens_tRNA-Asn-GTT-12-1                              74.66%    passed     97.01%
+ 393  Homo_sapiens_tRNA-Asn-GTT-10-1                              74.66%    passed     98.81%
+ 394  Homo_sapiens_tRNA-Asn-GTT-8-1                               74.66%    passed     98.63%
+ 395  Homo_sapiens_tRNA-Asn-GTT-7-1                               74.66%    passed     92.57%
+ 396  Homo_sapiens_tRNA-Asn-GTT-11-1                              74.66%    passed     86.36%
+ 397  Homo_sapiens_tRNA-Asn-GTT-6-1                               74.66%    passed     69.22%
+ 398  Homo_sapiens_tRNA-Asn-GTT-9-1                               74.66%    passed     79.71%
+ 399  Homo_sapiens_tRNA-Asn-GTT-1-1                               74.66%    passed     85.62%
+ 400  Homo_sapiens_tRNA-Asn-GTT-3-1                               74.66%    passed     92.85%
+ 401  Homo_sapiens_tRNA-Asn-GTT-4-1                               74.66%    passed     92.85%
+ 402  Homo_sapiens_tRNA-Asn-GTT-5-1                               74.66%    passed     79.71%
+ 403  Homo_sapiens_tRNA-Asn-GTT-2-1                               74.66%    passed     80.03%
+ 404  Arabidopsis_thaliana_tRNA-Arg-ACG-4-1                       75.00%    passed     92.17%
+ 405  Arabidopsis_thaliana_tRNA-Arg-ACG-5-1                       75.00%    passed     87.20%
+ 406  Arabidopsis_thaliana_tRNA-Arg-ACG-1-1                       75.00%    passed     82.72%
+ 407  Arabidopsis_thaliana_tRNA-Arg-ACG-6-1                       75.00%    passed     80.94%
+ 408  Arabidopsis_thaliana_tRNA-Arg-ACG-2-1                       75.00%    passed     76.57%
+ 409  Arabidopsis_thaliana_tRNA-Arg-ACG-3-1                       75.00%    passed     87.20%
+ 410  Homo_sapiens_tRNA-Arg-TCT-4-1                               74.66%    passed     84.90%
+ 411  Homo_sapiens_tRNA-Arg-TCT-1-1                               70.89%    passed     74.39%
+ 412  Homo_sapiens_tRNA-Arg-TCT-5-1                               70.21%    passed     90.40%
+ 413  Homo_sapiens_tRNA-Arg-TCT-3-1                               68.84%    passed     83.31%
+ 414  Homo_sapiens_tRNA-Arg-TCT-2-1                               69.86%    passed     60.66%
+ 415  Homo_sapiens_tRNA-Arg-TCT-3-2                               70.55%    passed     49.03%
+ 416  Saccharomyces_cerevisiae_tRNA-Arg-ACG-1-1                   75.00%    passed     92.80%
+ 417  Saccharomyces_cerevisiae_tRNA-Arg-ACG-2-1                   75.00%    passed     82.65%
+ 418  Arabidopsis_thaliana_tRNA-Trp-CCA-2-1                       75.34%    passed     85.86%
+ 419  Arabidopsis_thaliana_tRNA-Trp-CCA-5-1                       75.34%    passed     92.57%
+ 420  Arabidopsis_thaliana_tRNA-Trp-CCA-1-1                       75.34%    passed     93.80%
+ 421  Homo_sapiens_tRNA-Trp-CCA-2-1                               75.34%    passed     97.46%
+ 422  Homo_sapiens_tRNA-Trp-CCA-4-1                               75.34%    passed     82.85%
+ 423  Homo_sapiens_tRNA-Trp-CCA-1-1                               75.34%    passed     93.21%
+ 424  Homo_sapiens_tRNA-Trp-CCA-5-1                               75.34%    passed     85.44%
+ 425  Homo_sapiens_tRNA-Trp-CCA-3-1                               75.34%    passed     95.41%
+ 426  Arabidopsis_thaliana_tRNA-Arg-CCG-1-1                       75.00%    passed     89.37%
+ 427  Saccharomyces_cerevisiae_tRNA-Arg-TCT-1-1                   75.34%    passed     98.61%
+ 428  Arabidopsis_thaliana_tRNA-Arg-TCT-6-1                       75.00%    passed     97.93%
+ 429  Arabidopsis_thaliana_tRNA-Arg-TCT-1-1                       75.00%    passed     91.82%
+ 430  Arabidopsis_thaliana_tRNA-Arg-TCT-5-1                       75.00%    passed     96.07%
+ 431  Arabidopsis_thaliana_tRNA-Arg-TCT-3-1                       75.00%    passed     99.45%
+ 432  Arabidopsis_thaliana_tRNA-Arg-TCT-7-1                       75.00%    passed     95.73%
+ 433  Arabidopsis_thaliana_tRNA-Arg-TCT-8-1                       75.00%    passed     97.39%
+ 434  Arabidopsis_thaliana_tRNA-Arg-TCT-2-1                       75.00%    passed     96.07%
+ 435  Arabidopsis_thaliana_tRNA-Arg-TCG-1-1                       74.66%    passed     92.85%
+ 436  Arabidopsis_thaliana_tRNA-Arg-TCG-2-1                       74.66%    passed     98.63%
+ 437  Homo_sapiens_tRNA-Arg-ACG-1-1                               75.00%    passed     93.59%
+ 438  Homo_sapiens_tRNA-Arg-ACG-2-1                               75.00%    passed     97.71%
+ 439  Homo_sapiens_tRNA-Arg-TCG-5-1                               75.00%    passed     81.96%
+ 440  Homo_sapiens_tRNA-Arg-TCG-2-1                               75.00%    passed     86.76%
+ 441  Homo_sapiens_tRNA-Arg-TCG-4-1                               75.00%    passed     75.82%
+ 442  Homo_sapiens_tRNA-Arg-CCG-1-1                               75.00%    passed     78.81%
+ 443  Homo_sapiens_tRNA-Arg-TCG-3-1                               75.00%    passed     88.84%
+ 444  Homo_sapiens_tRNA-Arg-TCG-6-1                               75.00%    passed     82.68%
+ 445  Homo_sapiens_tRNA-Arg-TCG-1-1                               75.00%    passed     84.52%
+ 446  Homo_sapiens_tRNA-Arg-CCG-2-1                               75.00%    passed     84.52%
+ 447  Homo_sapiens_tRNA-Arg-CCT-3-1                               75.00%    passed     82.65%
+ 448  Homo_sapiens_tRNA-Arg-CCT-5-1                               75.00%    passed     92.62%
+ 449  Homo_sapiens_tRNA-Arg-CCT-4-1                               75.00%    passed     92.62%
+ 450  Homo_sapiens_tRNA-Arg-CCT-1-1                               75.00%    passed     90.45%
+ 451  Homo_sapiens_tRNA-Arg-CCT-2-1                               75.00%    passed     82.65%
+ 452  Arabidopsis_thaliana_tRNA-Arg-CCG-2-1                       75.00%    passed     94.06%
+ 453  Arabidopsis_thaliana_tRNA-Arg-CCG-3-1                       75.00%    passed     39.30%
+ 454  Arabidopsis_thaliana_tRNA-Thr-TGT-4-1                       75.00%    passed     90.20%
+ 455  Arabidopsis_thaliana_tRNA-Thr-TGT-1-1                       75.34%    passed     91.94%
+ 456  Arabidopsis_thaliana_tRNA-Thr-TGT-3-1                       75.34%    passed     85.41%
+ 457  Arabidopsis_thaliana_tRNA-Thr-TGT-2-1                       75.34%    passed     91.54%
+ 458  Saccharomyces_cerevisiae_tRNA-Thr-TGT-1-1                   75.34%    passed     67.14%
+ 459  Saccharomyces_cerevisiae_tRNA-Thr-TGT-2-1                   75.34%    passed     42.86%
+ 460  Homo_sapiens_tRNA-Thr-CGT-5-1                               74.66%    passed     93.93%
+ 461  Homo_sapiens_tRNA-Thr-TGT-2-1                               75.00%    passed     89.03%
+ 462  Homo_sapiens_tRNA-Thr-TGT-5-1                               75.00%    passed     98.73%
+ 463  Homo_sapiens_tRNA-Thr-TGT-3-1                               75.00%    passed     85.26%
+ 464  Homo_sapiens_tRNA-Thr-TGT-4-1                               75.00%    passed     98.73%
+ 465  Homo_sapiens_tRNA-Thr-TGT-6-1                               75.34%    passed     99.78%
+ 466  Saccharomyces_cerevisiae_tRNA-Lys-TTT-1-1                   67.12%    passed     62.16%
+ 467  Saccharomyces_cerevisiae_tRNA-Lys-TTT-1-3                   67.12%    passed     46.18%
+ 468  Saccharomyces_cerevisiae_tRNA-Lys-CTT-1-1                   75.00%    passed     97.39%
+ 469  Arabidopsis_thaliana_tRNA-Met-CAT-3-11                      70.89%    passed     77.86%
+ 470  Arabidopsis_thaliana_tRNA-Met-CAT-3-2                       70.89%    passed     82.91%
+ 471  Arabidopsis_thaliana_tRNA-Met-CAT-3-1                       70.89%    passed     89.28%
+ 472  Arabidopsis_thaliana_tRNA-Met-CAT-3-10                      70.55%    passed     93.98%
+ 473  Arabidopsis_thaliana_tRNA-Met-CAT-3-3                       70.89%    passed     83.61%
+ 474  Saccharomyces_cerevisiae_tRNA-Met-CAT-1-1                   75.00%    passed     64.36%
+ 475  Homo_sapiens_tRNA-Leu-CAA-5-1                               74.66%    passed     83.80%
+ 476  Homo_sapiens_tRNA-Met-CAT-7-1                               75.00%    passed     87.69%
+ 477  Homo_sapiens_tRNA-Met-CAT-5-1                               75.00%    passed     82.57%
+ 478  Homo_sapiens_tRNA-Met-CAT-2-1                               75.00%    passed     92.80%
+ 479  Homo_sapiens_tRNA-Met-CAT-4-1                               75.00%    passed     79.92%
+ 480  Homo_sapiens_tRNA-Met-CAT-3-1                               75.00%    passed     90.19%
+ 481  Homo_sapiens_tRNA-Met-CAT-1-1                               75.00%    passed     99.74%
+ 482  Homo_sapiens_tRNA-Met-CAT-6-1                               75.00%    passed     92.80%
+ 483  Arabidopsis_thaliana_tRNA-Ile-TAT-1-1                       74.66%    passed     57.61%
+ 484  Arabidopsis_thaliana_tRNA-Ile-TAT-2-1                       74.66%    passed     75.01%
+ 485  Saccharomyces_cerevisiae_tRNA-Ile-AAT-1-1                   74.66%    passed     97.22%
+ 486  Arabidopsis_thaliana_tRNA-Ile-AAT-1-1                       74.66%    passed     92.77%
+ 487  Arabidopsis_thaliana_tRNA-Ile-AAT-2-1                       74.66%    passed     86.70%
+ 488  Homo_sapiens_tRNA-Ile-GAT-1-1                               74.66%    passed     56.87%
+ 489  Homo_sapiens_tRNA-Ile-AAT-9-1                               74.66%    passed     84.19%
+ 490  Homo_sapiens_tRNA-Ile-AAT-8-1                               74.66%    passed     64.42%
+ 491  Homo_sapiens_tRNA-Ile-AAT-3-1                               74.66%    passed     92.57%
+ 492  Homo_sapiens_tRNA-Ile-AAT-6-1                               74.66%    passed     92.57%
+ 493  Homo_sapiens_tRNA-Ile-AAT-2-1                               74.66%    passed     92.85%
+ 494  Homo_sapiens_tRNA-Ile-AAT-1-1                               74.66%    passed     77.12%
+ 495  Homo_sapiens_tRNA-Ile-AAT-4-1                               74.66%    passed     83.78%
+ 496  Homo_sapiens_tRNA-Ile-AAT-7-1                               74.66%    passed     77.12%
+ 497  Homo_sapiens_tRNA-Ile-AAT-5-1                               74.66%    passed     84.90%
+ 498  Escherichia_coli_str_K-12_substr_MG1655_tRNA-Leu-CAA-1-1    70.89%    passed     37.58%
+ 499  Escherichia_coli_str_K-12_substr_MG1655_tRNA-Ser-CGA-1-1    69.18%    passed     19.20%
+ 500  Methanosarcina_thermophila_TM-1_tRNA-Arg-CCG-1-1            75.34%    passed     98.84%
+ 501  Escherichia_coli_str_K-12_substr_MG1655_tRNA-Ser-TGA-1-1    69.86%    passed     68.48%
+ 502  Methanosarcina_thermophila_TM-1_tRNA-Leu-CAA-1-1            71.58%    passed     74.01%
+ 503  Escherichia_coli_str_K-12_substr_MG1655_tRNA-Gln-CTG-1-1    74.32%    passed     73.67%
+ 504  Escherichia_coli_str_K-12_substr_MG1655_tRNA-Gln-TTG-1-1    74.32%    passed     86.24%
+ 505  Saccharomyces_cerevisiae_tRNA-Leu-CAA-1-8                   60.62%    passed      5.44%
+ 506  Saccharomyces_cerevisiae_tRNA-Leu-CAA-1-4                   60.96%    passed     25.32%
+ 507  Saccharomyces_cerevisiae_tRNA-Leu-CAA-1-10                  60.96%    passed     16.44%
+ 508  Saccharomyces_cerevisiae_tRNA-Leu-CAA-1-3                   60.62%    passed     10.88%
+ 509  Saccharomyces_cerevisiae_tRNA-Leu-CAA-1-1                   60.96%    passed     19.94%
+ 510  Methanosarcina_thermophila_TM-1_tRNA-His-GTG-1-1            75.00%    passed     25.40%
+ 511  Methanosarcina_thermophila_TM-1_tRNA-Cys-GCA-4-1            75.68%    passed     97.67%
+ 512  Methanosarcina_thermophila_TM-1_tRNA-Cys-GCA-5-1            75.34%    passed     72.74%
+ 513  Methanosarcina_thermophila_TM-1_tRNA-Cys-GCA-1-1            75.34%    passed     69.28%
+ 514  Methanosarcina_thermophila_TM-1_tRNA-Cys-GCA-2-1            75.34%    passed     82.56%
+ 515  Arabidopsis_thaliana_tRNA-Ser-GGA-2-1                       70.21%    passed     35.97%
+ 516  Saccharomyces_cerevisiae_tRNA-Thr-CGT-1-1                   75.34%    passed     99.06%
+ 517  Methanosarcina_thermophila_TM-1_tRNA-Leu-TAA-1-1            70.89%    passed     63.25%
+ 518  Methanosarcina_thermophila_TM-1_tRNA-Leu-TAG-1-1            70.89%    passed     98.03%
+ 519  Methanosarcina_thermophila_TM-1_tRNA-Leu-CAG-1-1            70.89%    passed     89.08%
+ 520  Methanosarcina_thermophila_TM-1_tRNA-Leu-GAG-1-1            70.89%    passed     72.12%
+ 521  Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-1                   75.00%    passed     41.07%
+ 522  Escherichia_coli_str_K-12_substr_MG1655_tRNA-Ser-GCT-1-1    68.15%    passed     31.82%
+ 523  Escherichia_coli_str_K-12_substr_MG1655_tRNA-Ser-GGA-1-1    69.86%    passed     66.70%
+ 524  Methanosarcina_thermophila_TM-1_tRNA-Ser-CGA-1-1            71.23%    passed     87.14%
+ 525  Methanosarcina_thermophila_TM-1_tRNA-Ser-TGA-1-1            70.89%    passed     44.64%
+ 526  Methanosarcina_thermophila_TM-1_tRNA-Ser-GGA-1-1            71.58%    passed     33.49%
+ 527  Saccharomyces_cerevisiae_tRNA-Leu-TAA-1-1                   71.23%    passed     88.96%
+ 528  Saccharomyces_cerevisiae_tRNA-Leu-GAG-1-1                   71.92%    passed     69.36%
+ 529  Arabidopsis_thaliana_tRNA-Leu-TAA-2-1                       71.58%    passed     98.22%
+ 530  Arabidopsis_thaliana_tRNA-Leu-TAA-3-1                       71.58%    passed     91.76%
+ 531  Saccharomyces_cerevisiae_tRNA-Leu-TAG-1-1                   65.41%    passed     15.19%
+ 532  Saccharomyces_cerevisiae_tRNA-Leu-TAG-1-2                   65.41%    passed     18.44%
+ 533  Homo_sapiens_tRNA-Leu-TAG-3-1                               71.92%    passed     79.28%
+ 534  Homo_sapiens_tRNA-Leu-AAG-4-1                               71.92%    passed     73.49%
+ 535  Homo_sapiens_tRNA-Leu-TAG-2-1                               71.92%    passed     60.65%
+ 536  Homo_sapiens_tRNA-Leu-TAG-1-1                               71.92%    passed     54.97%
+ 537  Homo_sapiens_tRNA-Leu-AAG-1-1                               71.92%    passed     60.93%
+ 538  Homo_sapiens_tRNA-Leu-AAG-3-1                               71.92%    passed     60.93%
+ 539  Homo_sapiens_tRNA-Leu-AAG-2-1                               71.92%    passed     45.12%
+ 540  Homo_sapiens_tRNA-Leu-CAA-6-1                               71.23%    passed     91.89%
+ 541  Homo_sapiens_tRNA-Leu-CAG-1-1                               71.58%    passed     53.57%
+ 542  Homo_sapiens_tRNA-Leu-CAG-2-1                               71.58%    passed     65.49%
+ 543  Homo_sapiens_tRNA-Leu-CAA-1-1                               63.70%    passed     97.14%
+ 544  Homo_sapiens_tRNA-Leu-CAA-1-2                               64.04%    passed     93.83%
+ 545  Homo_sapiens_tRNA-Leu-CAA-2-1                               63.01%    passed     61.27%
+ 546  Homo_sapiens_tRNA-Leu-CAA-3-1                               63.36%    passed     86.25%
+ 547  Homo_sapiens_tRNA-Leu-CAA-4-1                               63.70%    passed     91.62%
+ 548  Arabidopsis_thaliana_tRNA-Leu-TAA-1-1                       71.23%    passed     99.52%
+ 549  Arabidopsis_thaliana_tRNA-Leu-CAA-5-1                       71.23%    passed     97.44%
+ 550  Arabidopsis_thaliana_tRNA-Leu-CAA-2-1                       71.23%    passed     99.37%
+ 551  Arabidopsis_thaliana_tRNA-Leu-CAA-4-1                       71.23%    passed     94.65%
+ 552  Arabidopsis_thaliana_tRNA-Leu-CAA-1-1                       71.23%    passed     96.26%
+ 553  Arabidopsis_thaliana_tRNA-Leu-CAA-3-1                       71.23%    passed     99.00%
+ 554  Arabidopsis_thaliana_tRNA-Leu-TAG-2-1                       72.60%    passed     92.68%
+ 555  Arabidopsis_thaliana_tRNA-Leu-TAG-1-1                       72.60%    passed     97.23%
+ 556  Arabidopsis_thaliana_tRNA-Leu-TAG-3-1                       72.60%    passed     95.05%
+ 557  Arabidopsis_thaliana_tRNA-Leu-CAG-1-1                       72.26%    passed     96.36%
+ 558  Arabidopsis_thaliana_tRNA-Leu-AAG-1-1                       72.26%    passed     78.71%
+ 559  Arabidopsis_thaliana_tRNA-Leu-AAG-2-1                       72.26%    passed     86.37%
+ 560  Arabidopsis_thaliana_tRNA-Ser-GCT-5-1                       71.92%    passed     76.21%
+ 561  Arabidopsis_thaliana_tRNA-Ser-GCT-2-1                       71.92%    passed     76.45%
+ 562  Arabidopsis_thaliana_tRNA-Ser-GCT-4-1                       71.92%    passed     79.28%
+ 563  Arabidopsis_thaliana_tRNA-Ser-GCT-6-1                       71.92%    passed     81.16%
+ 564  Arabidopsis_thaliana_tRNA-Ser-GCT-7-1                       71.92%    passed     68.49%
+ 565  Arabidopsis_thaliana_tRNA-Ser-GCT-1-1                       71.92%    passed     81.16%
+ 566  Arabidopsis_thaliana_tRNA-Ser-GCT-3-1                       71.92%    passed     76.21%
+ 567  Methanosarcina_thermophila_TM-1_tRNA-Ser-GCT-1-1            70.89%    passed     76.33%
+ 568  Homo_sapiens_tRNA-Ser-GCT-6-1                               71.23%    passed     87.68%
+ 569  Homo_sapiens_tRNA-Ser-GCT-1-1                               71.92%    passed     90.18%
+ 570  Homo_sapiens_tRNA-Ser-GCT-2-1                               71.92%    passed     91.81%
+ 571  Homo_sapiens_tRNA-Ser-GCT-3-1                               71.92%    passed     88.93%
+ 572  Homo_sapiens_tRNA-Ser-GCT-5-1                               71.92%    passed     98.19%
+ 573  Homo_sapiens_tRNA-Ser-GCT-4-1                               71.92%    passed     91.81%
+ 574  Homo_sapiens_tRNA-Leu-TAA-2-1                               71.58%    passed     86.25%
+ 575  Homo_sapiens_tRNA-Leu-TAA-3-1                               71.58%    passed     75.29%
+ 576  Homo_sapiens_tRNA-Leu-TAA-4-1                               71.58%    passed     88.64%
+ 577  Homo_sapiens_tRNA-Leu-TAA-1-1                               71.58%    passed     94.02%
+ 578  Arabidopsis_thaliana_tRNA-Ser-AGA-10-1                      71.92%    passed     48.73%
+ 579  Arabidopsis_thaliana_tRNA-Ser-AGA-8-1                       71.92%    passed     56.14%
+ 580  Arabidopsis_thaliana_tRNA-Ser-AGA-1-1                       71.92%    passed     88.13%
+ 581  Arabidopsis_thaliana_tRNA-Ser-AGA-9-1                       71.23%    passed     86.41%
+ 582  Arabidopsis_thaliana_tRNA-Ser-AGA-7-1                       71.92%    passed     79.64%
+ 583  Arabidopsis_thaliana_tRNA-Ser-AGA-2-1                       71.92%    passed     73.49%
+ 584  Arabidopsis_thaliana_tRNA-Ser-AGA-4-1                       71.92%    passed     88.13%
+ 585  Arabidopsis_thaliana_tRNA-Ser-AGA-5-1                       71.92%    passed     82.22%
+ 586  Arabidopsis_thaliana_tRNA-Ser-AGA-6-1                       71.92%    passed     96.38%
+ 587  Arabidopsis_thaliana_tRNA-Ser-AGA-3-1                       71.92%    passed     87.56%
+ 588  Saccharomyces_cerevisiae_tRNA-Ser-GCT-1-1                   65.41%    passed     81.58%
+ 589  Saccharomyces_cerevisiae_tRNA-Und-NNN-1-1                   65.75%    passed     77.80%
+ 590  Homo_sapiens_tRNA-Ser-CGA-4-1                               71.92%    passed     96.38%
+ 591  Homo_sapiens_tRNA-Ser-TGA-4-1                               71.92%    passed     82.22%
+ 592  Homo_sapiens_tRNA-Ser-AGA-4-1                               71.92%    passed     97.24%
+ 593  Homo_sapiens_tRNA-Ser-AGA-3-1                               71.92%    passed     99.58%
+ 594  Homo_sapiens_tRNA-Ser-AGA-1-1                               71.92%    passed     98.49%
+ 595  Homo_sapiens_tRNA-Ser-AGA-2-1                               71.92%    passed     97.24%
+ 596  Homo_sapiens_tRNA-Ser-TGA-3-1                               71.92%    passed     96.82%
+ 597  Homo_sapiens_tRNA-Ser-TGA-2-1                               71.92%    passed     96.38%
+ 598  Homo_sapiens_tRNA-Ser-TGA-1-1                               71.92%    passed     74.92%
+ 599  Homo_sapiens_tRNA-Ser-CGA-3-1                               71.92%    passed     98.49%
+ 600  Homo_sapiens_tRNA-Ser-CGA-1-1                               71.92%    passed     93.38%
+ 601  Homo_sapiens_tRNA-Ser-CGA-2-1                               71.92%    passed     97.42%
+ 602  Saccharomyces_cerevisiae_tRNA-Ser-AGA-1-1                   71.92%    passed     77.38%
+ 603  Saccharomyces_cerevisiae_tRNA-Ser-AGA-2-1                   71.58%    passed     74.02%
+ 604  Saccharomyces_cerevisiae_tRNA-Ser-CGA-1-1                   65.41%    passed     95.46%
+ 605  Saccharomyces_cerevisiae_tRNA-Ser-TGA-1-1                   71.92%    passed     88.93%
+ 606  Arabidopsis_thaliana_tRNA-Ser-CGA-1-1                       71.92%    passed     67.78%
+ 607  Arabidopsis_thaliana_tRNA-Ser-CGA-2-1                       71.92%    passed     87.17%
+ 608  Arabidopsis_thaliana_tRNA-Ser-CGA-3-1                       71.92%    passed     72.22%
+ 609  Arabidopsis_thaliana_tRNA-Ser-TGA-4-1                       71.92%    passed     96.31%
+ 610  Arabidopsis_thaliana_tRNA-Ser-TGA-2-1                       71.92%    passed     82.63%
+ 611  Arabidopsis_thaliana_tRNA-Ser-TGA-1-1                       71.92%    passed     96.31%
+ 612  Arabidopsis_thaliana_tRNA-Ser-TGA-3-1                       71.92%    passed     99.52%
+ 613  Homo_sapiens_tRNA-Thr-CGT-2-1                               75.34%    passed     59.38%
+ 614  Homo_sapiens_tRNA-Thr-CGT-4-1                               75.34%    passed     48.22%
+ 615  Methanosarcina_thermophila_TM-1_tRNA-Thr-CGT-1-1            75.34%    passed     69.98%
+ 616  Homo_sapiens_tRNA-Thr-AGT-6-1                               74.66%    passed     95.29%
+ 617  Homo_sapiens_tRNA-Thr-AGT-3-1                               74.66%    passed     99.50%
+ 618  Homo_sapiens_tRNA-Thr-AGT-1-1                               74.66%    passed     98.63%
+ 619  Homo_sapiens_tRNA-Thr-AGT-5-1                               74.66%    passed     98.81%
+ 620  Homo_sapiens_tRNA-Thr-AGT-4-1                               74.66%    passed     99.81%
+ 621  Homo_sapiens_tRNA-Thr-AGT-2-1                               74.66%    passed     98.81%
+ 622  Homo_sapiens_tRNA-Thr-CGT-3-1                               74.66%    passed     95.80%
+ 623  Homo_sapiens_tRNA-Thr-CGT-1-1                               74.66%    passed     89.46%
+ 624  Homo_sapiens_tRNA-Thr-TGT-1-1                               74.66%    passed     72.86%
+WARNING: 623 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                       73.32%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.074 seconds
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+20 trees examined
+Threads: 1 / Time: 8.134 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -45562
+Threads: 2 / Time: 7.309 sec / Speedup: 1.113 / Efficiency: 56% / LogL: -45562
+Threads: 3 / Time: 7.099 sec / Speedup: 1.146 / Efficiency: 38% / LogL: -45562
+BEST NUMBER OF THREADS: 2
+
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -20558.530
+2. Current log-likelihood: -20551.534
+3. Current log-likelihood: -20548.927
+Optimal log-likelihood: -20548.521
+Rate parameters:  A-C: 0.85113  A-G: 2.74920  A-T: 1.50791  C-G: 0.97155  C-T: 3.41847  G-T: 1.00000
+Base frequencies:  A: 0.201  C: 0.252  G: 0.309  T: 0.237
+Proportion of invariable sites: 0.000
+Gamma shape alpha: 0.798
+Parameters optimization took 3 rounds (0.569 sec)
+Time for fast ML tree search: 3.196 seconds
+
+NOTE: ModelFinder requires 79 MB RAM!
+ModelFinder will test up to 704 DNA models (sample size: 292) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  GTR+F         21773.556    1253 46053.111    3188577.111  50660.084
+  2  GTR+F+I       21762.136    1254 46032.273    3193572.273  50642.922
+  3  GTR+F+G4      20548.422    1254 43604.845    3191144.845  48215.494
+  4  GTR+F+I+G4    20548.426    1255 43606.852    3196166.852  48221.178
+  5  GTR+F+R2      20870.256    1255 44250.511    3196810.511  48864.837
+  6  GTR+F+R3      20641.697    1257 43797.395    3206409.395  48419.074
+  7  GTR+F+R4      20531.842    1259 43581.683    3216261.683  48210.716
+  8  GTR+F+R5      20470.248    1261 43462.496    3226226.496  48098.883
+  9  GTR+F+R6      20449.921    1263 43425.843    3236289.843  48069.583
+ 10  GTR+F+R7      20440.704    1265 43411.407    3246391.407  48062.501
+ 11  GTR+F+R8      20424.938    1267 43383.876    3256495.876  48042.323
+ 12  GTR+F+R9      20398.299    1269 43334.597    3266594.597  48000.398
+ 13  GTR+F+R10     20395.035    1271 43332.070    3276756.070  48005.224
+ 19  GTR+F+I+R2    20868.783    1256 44249.565    3201833.565  48867.568
+ 20  GTR+F+I+R3    20726.887    1258 43969.774    3211613.774  48595.130
+ 21  GTR+F+I+R4    20643.727    1260 43807.454    3221527.454  48440.163
+ 22  GTR+F+I+R5    20473.680    1262 43471.359    3231283.359  48111.422
+ 23  GTR+F+I+R6    20451.395    1264 43430.790    3241350.790  48078.207
+ 24  GTR+F+I+R7    20428.516    1266 43389.031    3251433.031  48043.802
+ 25  GTR+F+I+R8    20425.912    1268 43387.825    3261571.825  48049.948
+ 44  SYM+R9        20402.110    1266 43336.220    3251380.220  47990.990
+ 45  SYM+R10       20400.578    1268 43337.156    3261521.156  47999.279
+ 76  TVM+F+R9      20404.631    1268 43345.261    3261529.261  48007.385
+WARNING: Log-likelihood -20428.4 of TVM+F+R10 worse than TVM+F+R9 -20404.6
+ 77  TVM+F+R10     20428.398    1270 43396.795    3271736.795  48066.273
+108  TVMe+R9       20414.771    1265 43359.542    3246339.542  48010.636
+109  TVMe+R10      20413.400    1267 43360.800    3256472.800  48019.247
+140  TIM3+F+R9     20407.314    1267 43348.629    3256460.629  48007.076
+141  TIM3+F+R10    20406.834    1269 43351.669    3266611.669  48017.469
+172  TIM3e+R9      20412.791    1264 43353.583    3241273.583  48001.000
+173  TIM3e+R10     20411.307    1266 43354.613    3251398.613  48009.384
+204  TIM2+F+R9     20412.225    1267 43358.450    3256470.450  48016.897
+WARNING: Log-likelihood -20444.5 of TIM2+F+R10 worse than TIM2+F+R9 -20412.2
+205  TIM2+F+R10    20444.524    1269 43427.048    3266687.048  48092.848
+236  TIM2e+R9      20415.819    1264 43359.637    3241279.637  48007.054
+237  TIM2e+R10     20413.732    1266 43359.464    3251403.464  48014.234
+268  TIM+F+R9      20412.635    1267 43359.271    3256471.271  48017.718
+269  TIM+F+R10     20412.056    1269 43362.111    3266622.111  48027.912
+300  TIMe+R9       20412.320    1264 43352.640    3241272.640  48000.057
+301  TIMe+R10      20410.347    1266 43352.695    3251396.695  48007.465
+332  TPM3u+F+R9    20416.658    1266 43365.317    3251409.317  48020.087
+333  TPM3u+F+R10   20416.302    1268 43368.604    3261552.604  48030.728
+364  TPM3+R9       20425.526    1263 43377.052    3236241.052  48020.792
+365  TPM3+R10      20425.528    1265 43381.057    3246361.057  48032.150
+396  TPM2u+F+R9    20420.900    1266 43373.799    3251417.799  48028.570
+WARNING: Log-likelihood -20447.7 of TPM2u+F+R10 worse than TPM2u+F+R9 -20420.9
+397  TPM2u+F+R10   20447.672    1268 43431.344    3261615.344  48093.467
+428  TPM2+R9       20428.310    1263 43382.621    3236246.621  48026.361
+429  TPM2+R10      20426.365    1265 43382.731    3246362.731  48033.824
+460  K3Pu+F+R9     20421.763    1266 43375.527    3251419.527  48030.297
+461  K3Pu+F+R10    20421.398    1268 43378.797    3261562.797  48040.920
+492  K3P+R9        20424.734    1263 43375.468    3236239.468  48019.208
+493  K3P+R10       20423.077    1265 43376.154    3246356.154  48027.248
+524  TN+F+R9       20416.707    1266 43365.414    3251409.414  48020.184
+525  TN+F+R10      20416.206    1268 43368.413    3261552.413  48030.537
+556  TNe+R9        20418.517    1263 43363.035    3236227.035  48006.775
+557  TNe+R10       20416.402    1265 43362.804    3246342.804  48013.897
+588  HKY+F+R9      20425.638    1265 43381.276    3246361.276  48032.370
+589  HKY+F+R10     20425.278    1267 43384.557    3256496.557  48043.004
+620  K2P+R9        20430.809    1262 43385.618    3231197.618  48025.681
+621  K2P+R10       20429.086    1264 43386.172    3241306.172  48033.588
+652  F81+F+R9      20885.952    1264 44299.903    3242219.903  48947.320
+653  F81+F+R10     20885.102    1266 44302.203    3252346.203  48956.973
+684  JC+R9         20856.845    1261 44235.690    3226999.690  48872.076
+685  JC+R10        20855.171    1263 44236.341    3237100.341  48880.081
+Akaike Information Criterion:           GTR+F+R10
+Corrected Akaike Information Criterion: GTR+F
+Bayesian Information Criterion:         SYM+R9
+Best-fit model: SYM+R9 chosen according to BIC
+
+All model information printed to output.afa.model.gz
+CPU time for ModelFinder: 3453.226 seconds (0h:57m:33s)
+Wall-clock time for ModelFinder: 1731.226 seconds (0h:28m:51s)
+Generating 1000 samples for ultrafast bootstrap (seed: 136845)...
+
+NOTE: 48 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -20402.110
+Optimal log-likelihood: -20402.007
+Rate parameters:  A-C: 0.66159  A-G: 2.39929  A-T: 1.16069  C-G: 1.03549  C-T: 3.09746  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Site proportion and rates:  (0.067,0.015) (0.053,0.082) (0.156,0.155) (0.099,0.253) (0.244,0.375) (0.084,0.606) (0.069,0.606) (0.022,1.014) (0.205,3.607)
+Parameters optimization took 1 rounds (0.880 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 1.46992 secs using 200% CPU
+Computing ML distances took 1.470632 sec (of wall-clock time) 2.939963 sec (of CPU time)
+WARNING: Some pairwise ML distances are too long (saturated)
+Setting up auxiliary I and S matrices: done in 0.00446016 secs using 184.2% CPU
+Computing RapidNJ tree took 0.189259 sec (of wall-clock time) 0.018485 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -20975.852
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 11.818 second
+Computing log-likelihood of 98 initial trees ... 6.758 seconds
+Current best score: -20402.007
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -20385.308
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -20342.729
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 5: -20335.977
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 8: -20334.033
+Iteration 10 / LogL: -20396.917 / Time: 0h:33m:53s
+Iteration 20 / LogL: -20903.505 / Time: 0h:36m:55s
+Finish initializing candidate tree set (20)
+Current best tree score: -20334.033 / CPU time: 479.730
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 21: -20318.312
+Iteration 30 / LogL: -20344.558 / Time: 0h:38m:18s (0h:29m:40s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 31: -20316.898
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 32: -20315.094
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 37: -20307.274
+Iteration 40 / LogL: -20336.716 / Time: 0h:39m:41s (0h:26m:57s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 49: -20303.577
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 50: -20296.726
+Iteration 50 / LogL: -20296.726 / Time: 0h:41m:9s (0h:25m:6s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 56: -20293.869
+Iteration 60 / LogL: -20298.726 / Time: 0h:42m:45s (0h:22m:37s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 61: -20288.988
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 63: -20268.598
+Iteration 70 / LogL: -20312.068 / Time: 0h:44m:18s (0h:20m:49s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 78: -20265.189
+Iteration 80 / LogL: -20286.819 / Time: 0h:45m:52s (0h:21m:6s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 85: -20263.282
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 88: -20246.490
+Iteration 90 / LogL: -20298.171 / Time: 0h:47m:43s (0h:20m:47s left)
+Iteration 100 / LogL: -20263.054 / Time: 0h:49m:37s (0h:18m:28s left)
+Iteration 110 / LogL: -20342.163 / Time: 0h:51m:18s (0h:16m:4s left)
+Iteration 120 / LogL: -20302.022 / Time: 0h:53m:14s (0h:13m:55s left)
+Iteration 130 / LogL: -20295.345 / Time: 0h:54m:57s (0h:11m:44s left)
+Iteration 140 / LogL: -20253.840 / Time: 0h:56m:42s (0h:9m:37s left)
+Iteration 150 / LogL: -20309.435 / Time: 0h:58m:26s (0h:7m:32s left)
+Iteration 160 / LogL: -20286.076 / Time: 1h:0m:18s (0h:5m:32s left)
+Iteration 170 / LogL: -20254.873 / Time: 1h:2m:11s (0h:3m:33s left)
+Iteration 180 / LogL: -20334.094 / Time: 1h:3m:50s (0h:1m:33s left)
+Refining ufboot trees with NNI 1 branch...
+100 samples done
+200 samples done
+300 samples done
+400 samples done
+500 samples done
+600 samples done
+700 samples done
+800 samples done
+900 samples done
+1000 samples done
+Total 1000 ufboot trees refined
+TREE SEARCH COMPLETED AFTER 189 ITERATIONS / Time: 1h:14m:12s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -20246.490
+2. Current log-likelihood: -20246.476
+3. Current log-likelihood: -20246.465
+Optimal log-likelihood: -20246.457
+Rate parameters:  A-C: 0.69112  A-G: 2.50764  A-T: 1.18622  C-G: 1.06764  C-T: 3.27341  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Site proportion and rates:  (0.062,0.012) (0.051,0.059) (0.184,0.131) (0.193,0.249) (0.154,0.376) (0.071,0.541) (0.058,0.541) (0.035,0.784) (0.192,4.010)
+Parameters optimization took 3 rounds (1.746 sec)
+BEST SCORE FOUND : -20246.457
+Creating bootstrap support values...
+Split supports printed to NEXUS file output.afa.splits.nex
+Total tree length: 408.418
+
+Total number of iterations: 189
+CPU time used for tree search: 5346.568 sec (1h:29m:6s)
+Wall-clock time used for tree search: 2717.188 sec (0h:45m:17s)
+Total CPU time used: 8813.806 sec (2h:26m:53s)
+Total wall-clock time used: 4457.096 sec (1h:14m:17s)
+UFBoot trees printed to output.afa.ufboot
+
+Computing bootstrap consensus tree...
+Reading input file output.afa.splits.nex...
+624 taxa and 18929 splits.
+Consensus tree written to output.afa.contree
+Reading input trees file output.afa.contree
+Log-likelihood of consensus tree: -20821.861
+
+Analysis results written to: 
+  IQ-TREE report:                output.afa.iqtree
+  Maximum-likelihood tree:       output.afa.treefile
+  Likelihood distances:          output.afa.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          output.afa.splits.nex
+  Consensus tree:                output.afa.contree
+  UFBoot trees:                  output.afa.ufboot
+  Screen log file:               output.afa.log
+
+Date and Time: Wed May 22 12:54:25 2024
